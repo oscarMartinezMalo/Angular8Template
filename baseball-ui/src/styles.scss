@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+:root {
+    --primary: rgb(121, 168, 207);
+    --secondary: #0f2b5c;
+    --secondary-soft: #e2f1f9;
+    --primary-light: rgb(216, 210, 210);
+    --primary-soft: rgb(173, 208, 236);;
+    --accent: #fcf071 ;
+    --warn: rgb(160, 36, 56);
+    --success: rgb(34, 90, 34);
+  }
+
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+.material-icons.md-dark { color: var(--secondary); }
+.material-icons.md-dark.md-inactive { color: var(--secondary); }
+.material-icons.md-light { color: var(--secondary-soft); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
